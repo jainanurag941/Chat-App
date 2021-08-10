@@ -37,7 +37,7 @@ input {
     outline: none;
 }
 
-button {
+/* button {
     cursor: pointer;
     padding: 12px;
     background: #7C5CBF;
@@ -45,7 +45,45 @@ button {
     color: white;
     font-size: 16px;
     transition: background .3s ease;
-}
+} */
+
+.send-btn {
+    display:block;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    text-decoration: none;
+    background: #F0F0F0;
+    color: #9B9B9B;
+  }
+  
+  .send-icon {
+    padding: 6.5px 8px;
+    font-size: 22px;
+  }
+
+  .location-btn {
+    display:block;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    text-decoration: none;
+    background: #F0F0F0;
+    color: #9B9B9B;
+  }
+  
+  .location-icon {
+    padding: 6px 0;
+    font-size: 23px;
+  }
 
 button:hover {
     background: #6b47b8;
